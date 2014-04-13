@@ -21,6 +21,13 @@
 		D37497AC18F9D6C900661553 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D374978E18F9D6C900661553 /* UIKit.framework */; };
 		D37497B418F9D6C900661553 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D37497B218F9D6C900661553 /* InfoPlist.strings */; };
 		D37497B618F9D6C900661553 /* Pirate_AdventureTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D37497B518F9D6C900661553 /* Pirate_AdventureTests.m */; };
+		D37497C018F9DBD900661553 /* bg_0.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D37497BF18F9DBD900661553 /* bg_0.jpg */; };
+		D37497C318F9F12400661553 /* JKPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = D37497C218F9F12400661553 /* JKPlayer.m */; };
+		D37497C618F9F43D00661553 /* JKArmor.m in Sources */ = {isa = PBXBuildFile; fileRef = D37497C518F9F43D00661553 /* JKArmor.m */; };
+		D37497C918F9F44500661553 /* JKWeapon.m in Sources */ = {isa = PBXBuildFile; fileRef = D37497C818F9F44500661553 /* JKWeapon.m */; };
+		D37497CC18FA9C5F00661553 /* JKTile.m in Sources */ = {isa = PBXBuildFile; fileRef = D37497CB18FA9C5F00661553 /* JKTile.m */; };
+		D37497D118FA9E1200661553 /* JKTileFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = D37497D018FA9E1200661553 /* JKTileFactory.m */; };
+		D37497D318FAA34200661553 /* bg_1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D37497D218FAA34200661553 /* bg_1.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +60,18 @@
 		D37497B118F9D6C900661553 /* Pirate AdventureTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Pirate AdventureTests-Info.plist"; sourceTree = "<group>"; };
 		D37497B318F9D6C900661553 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D37497B518F9D6C900661553 /* Pirate_AdventureTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Pirate_AdventureTests.m; sourceTree = "<group>"; };
+		D37497BF18F9DBD900661553 /* bg_0.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bg_0.jpg; sourceTree = "<group>"; };
+		D37497C118F9F12400661553 /* JKPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKPlayer.h; sourceTree = "<group>"; };
+		D37497C218F9F12400661553 /* JKPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKPlayer.m; sourceTree = "<group>"; };
+		D37497C418F9F43D00661553 /* JKArmor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKArmor.h; sourceTree = "<group>"; };
+		D37497C518F9F43D00661553 /* JKArmor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKArmor.m; sourceTree = "<group>"; };
+		D37497C718F9F44500661553 /* JKWeapon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKWeapon.h; sourceTree = "<group>"; };
+		D37497C818F9F44500661553 /* JKWeapon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKWeapon.m; sourceTree = "<group>"; };
+		D37497CA18FA9C5F00661553 /* JKTile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKTile.h; sourceTree = "<group>"; };
+		D37497CB18FA9C5F00661553 /* JKTile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKTile.m; sourceTree = "<group>"; };
+		D37497CF18FA9E1200661553 /* JKTileFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKTileFactory.h; sourceTree = "<group>"; };
+		D37497D018FA9E1200661553 /* JKTileFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKTileFactory.m; sourceTree = "<group>"; };
+		D37497D218FAA34200661553 /* bg_1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bg_1.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,11 +131,13 @@
 		D374979018F9D6C900661553 /* Pirate Adventure */ = {
 			isa = PBXGroup;
 			children = (
+				D37497CE18FA9DF300661553 /* Factories */,
 				D374979918F9D6C900661553 /* JKAppDelegate.h */,
 				D374979A18F9D6C900661553 /* JKAppDelegate.m */,
 				D374979C18F9D6C900661553 /* Main.storyboard */,
 				D374979F18F9D6C900661553 /* JKViewController.h */,
 				D37497A018F9D6C900661553 /* JKViewController.m */,
+				D37497CD18FA9D4300661553 /* Classes */,
 				D37497A218F9D6C900661553 /* Images.xcassets */,
 				D374979118F9D6C900661553 /* Supporting Files */,
 			);
@@ -126,6 +147,8 @@
 		D374979118F9D6C900661553 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				D37497D218FAA34200661553 /* bg_1.jpg */,
+				D37497BF18F9DBD900661553 /* bg_0.jpg */,
 				D374979218F9D6C900661553 /* Pirate Adventure-Info.plist */,
 				D374979318F9D6C900661553 /* InfoPlist.strings */,
 				D374979618F9D6C900661553 /* main.m */,
@@ -150,6 +173,30 @@
 				D37497B218F9D6C900661553 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D37497CD18FA9D4300661553 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				D37497CA18FA9C5F00661553 /* JKTile.h */,
+				D37497CB18FA9C5F00661553 /* JKTile.m */,
+				D37497C118F9F12400661553 /* JKPlayer.h */,
+				D37497C218F9F12400661553 /* JKPlayer.m */,
+				D37497C418F9F43D00661553 /* JKArmor.h */,
+				D37497C518F9F43D00661553 /* JKArmor.m */,
+				D37497C718F9F44500661553 /* JKWeapon.h */,
+				D37497C818F9F44500661553 /* JKWeapon.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		D37497CE18FA9DF300661553 /* Factories */ = {
+			isa = PBXGroup;
+			children = (
+				D37497CF18FA9E1200661553 /* JKTileFactory.h */,
+				D37497D018FA9E1200661553 /* JKTileFactory.m */,
+			);
+			name = Factories;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,6 +279,8 @@
 				D37497A318F9D6C900661553 /* Images.xcassets in Resources */,
 				D374979518F9D6C900661553 /* InfoPlist.strings in Resources */,
 				D374979E18F9D6C900661553 /* Main.storyboard in Resources */,
+				D37497D318FAA34200661553 /* bg_1.jpg in Resources */,
+				D37497C018F9DBD900661553 /* bg_0.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -250,9 +299,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D37497CC18FA9C5F00661553 /* JKTile.m in Sources */,
+				D37497C918F9F44500661553 /* JKWeapon.m in Sources */,
 				D374979718F9D6C900661553 /* main.m in Sources */,
+				D37497C618F9F43D00661553 /* JKArmor.m in Sources */,
 				D37497A118F9D6C900661553 /* JKViewController.m in Sources */,
+				D37497D118FA9E1200661553 /* JKTileFactory.m in Sources */,
 				D374979B18F9D6C900661553 /* JKAppDelegate.m in Sources */,
+				D37497C318F9F12400661553 /* JKPlayer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -457,6 +511,7 @@
 				D37497BB18F9D6C900661553 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D37497BC18F9D6C900661553 /* Build configuration list for PBXNativeTarget "Pirate AdventureTests" */ = {
 			isa = XCConfigurationList;
@@ -465,6 +520,7 @@
 				D37497BE18F9D6C900661553 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
