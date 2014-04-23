@@ -88,6 +88,9 @@
                                         <state key="normal" title="Północ">
                                             <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
+                                        <connections>
+                                            <action selector="nButtonPressed:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="MZe-aR-wzY"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nUd-mr-re5">
                                         <rect key="frame" x="160" y="64" width="60" height="30"/>
@@ -95,6 +98,9 @@
                                         <state key="normal" title="Południe">
                                             <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
+                                        <connections>
+                                            <action selector="sButtonPressed:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="uMN-rj-R3Y"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VTb-uS-8Ms">
                                         <rect key="frame" x="126" y="37" width="53" height="30"/>
@@ -102,6 +108,9 @@
                                         <state key="normal" title="Zachód">
                                             <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
+                                        <connections>
+                                            <action selector="wButtonPressed:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="xVe-nM-PNr"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nef-Ij-70x">
                                         <rect key="frame" x="203" y="37" width="57" height="30"/>
@@ -109,13 +118,19 @@
                                         <state key="normal" title="Wschód">
                                             <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
+                                        <connections>
+                                            <action selector="eButtonPressed:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="I3f-Rc-bCV"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xjy-3E-6Hl">
-                                        <rect key="frame" x="20" y="20" width="70" height="64"/>
+                                        <rect key="frame" x="20" y="37" width="70" height="30"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <state key="normal" title="Akcja">
                                             <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
+                                        <connections>
+                                            <action selector="actionButtonPressed:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="UqZ-T3-5ic"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                                 <color key="backgroundColor" red="0.76439085832496301" green="0.91013085905044899" blue="1" alpha="0.95000000000000007" colorSpace="calibratedRGB"/>

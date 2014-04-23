@@ -28,10 +28,7 @@
 {
     [self initPlayer];
     [self initMap];
-    [self updateHUD];
-    [self updateDisplay];
-    [self updateControls];
-
+    [self updateGame];
 }
 
 - (void) initPlayer
@@ -42,6 +39,13 @@
 - (void)initMap
 {
     self.map = [JKTileFactory createTiles];
+}
+
+- (void)updateGame
+{
+    [self updateHUD];
+    [self updateDisplay];
+    [self updateControls];
 }
 
 - (void)updateDisplay
@@ -112,4 +116,27 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)nButtonPressed:(UIButton *)sender {
+    [self.player moveBy: CGPointMake(0,1)];
+    [self updateGame];
+}
+
+- (IBAction)wButtonPressed:(UIButton *)sender {
+    [self.player moveBy: CGPointMake(-1,0)];
+    [self updateGame];
+}
+
+- (IBAction)eButtonPressed:(UIButton *)sender {
+    [self.player moveBy: CGPointMake(1, 0)];
+    [self updateGame];
+}
+
+- (IBAction)sButtonPressed:(id)sender {
+    [self.player moveBy: CGPointMake(0, -1)];
+    [self updateGame];
+}
+
+- (IBAction)actionButtonPressed:(UIButton *)sender {
+    
+}
 @end

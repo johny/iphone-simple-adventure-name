@@ -28,6 +28,12 @@
 @property (strong, nonatomic) JKPlayer *player;
 @property (strong, nonatomic) NSMutableArray *map;
 
+- (IBAction)nButtonPressed:(UIButton *)sender;
+- (IBAction)wButtonPressed:(UIButton *)sender;
+- (IBAction)eButtonPressed:(UIButton *)sender;
+- (IBAction)sButtonPressed:(UIButton *)sender;
+- (IBAction)actionButtonPressed:(UIButton *)sender;
+
 
 
 

@@ -31,7 +31,11 @@
     self.armor = clothesArmor;    
     
     return self;
-    
+}
+
+- (void) moveBy: (CGPoint) point
+{
+    self.position = CGPointMake(self.position.x + point.x, self.position.y + point.y);
 }
 
 @end

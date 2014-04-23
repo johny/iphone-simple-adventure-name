@@ -17,6 +17,7 @@
 @property (strong, nonatomic) JKArmor *armor;
 @property (strong, nonatomic) JKWeapon *weapon;
 
+- (void) moveBy: (CGPoint) point;
 - (JKPlayer*)initWithDefaults;
 
 @end
